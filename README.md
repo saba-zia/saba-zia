@@ -1,16 +1,27 @@
-## Hi there 👋
+# Hi, I'm Saba 👋
 
-<!--
-**saba-zia/saba-zia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+BSc Artificial Intelligence student at Johannes Kepler University Linz (JKU).
+I also work as a Data Science & AI instructor, teaching a full DS/ML/MLOps curriculum.
 
-Here are some ideas to get you started:
+Currently focused on machine learning projects and looking for AI opportunities in Austria.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## My Project Roadmap
+
+![Roadmap](./roadmap.svg)
+
+## Projects
+
+**[Customer Churn Prediction](https://github.com/saba-zia/customer-churn-prediction)**
+End-to-end ML project — logistic regression, ROC/AUC analysis, deployed with Streamlit.
+
+**[CineMatch](https://github.com/saba-zia/movie-recommendation-system)**
+Movie recommendation system using item-based collaborative filtering, deployed with Streamlit.
+
+## Skills
+
+Python · Pandas · Scikit-learn · Machine Learning · Jupyter Notebook · Streamlit · Git & GitHub
+
+## Contact
+
+📍 open to opportunities in Austria
+🔗 [LinkedIn](https://linkedin.com/in/saba-zia)
