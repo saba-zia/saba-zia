@@ -24,4 +24,4 @@ Python · Pandas · Scikit-learn · Machine Learning · Jupyter Notebook · Stre
 ## Contact
 
 📍 open to opportunities in Austria
-🔗 [LinkedIn](https://linkedin.com/in/saba-zia)
+🔗[LinkedIn](https://www.linkedin.com/in/saba-zia-naserani/)
