@@ -1,34 +1,95 @@
-# Hi, I'm Saba 👋
-
-BSc Artificial Intelligence student at Johannes Kepler University Linz (JKU), based in Linz, Austria.
-
-I build and publish self-driven machine learning projects, working across classification problems, recommender systems, and search-based decision making. Currently looking for an AI internship or job opportunity.
-
 ## My Project Roadmap
 
 ```mermaid
-flowchart TD
+flowchart LR
 
-    A[Customer Churn Prediction<br/>Classification and Tabular Data]
-    B[CineMatch<br/>Movie Recommender System]
-    C[LastFM Music Recommender<br/>Implicit-Feedback Recommendation]
+    A[Customer Churn Prediction<br/>Classification]
+    B[CineMatch<br/>Movie Recommendation]
+    C[LastFM Music Recommender<br/>Implicit Feedback]
     D[Pommerman MCTS Agent<br/>Search and Multi-Agent AI]
 
     A --> B
     B --> C
     C --> D
+
+    classDef classification fill:#e8f5e9,stroke:#2e7d32,color:#1b5e20;
+    classDef recommender fill:#ede7f6,stroke:#6a1b9a,color:#4a148c;
+    classDef search fill:#e3f2fd,stroke:#1565c0,color:#0d47a1;
+
+    class A classification;
+    class B,C recommender;
+    class D search;
 ```
 
-**[CineMatch](https://github.com/saba-zia/movie-recommendation-system)** — *Self-driven project*
-Movie recommender system built on the MovieLens dataset using item-based collaborative filtering and cosine similarity, with TMDB API integration, deployed with Streamlit.
+The roadmap represents my progression from supervised machine learning to recommender systems and search-based artificial intelligence.
 
-**[Pommerman MCTS Agent](https://github.com/saba-zia/pommerman-mcts-agent)** — *University coursework project (JKU)*
-Team project building a Monte Carlo Tree Search agent for the Pommerman multi-agent environment, with forward-model simulation and bomb-safety heuristics.
+---
 
-## Skills
+## Featured Projects
 
-Python · Pandas · Scikit-learn · Machine Learning · Recommender Systems · Search Algorithms (MCTS) · Streamlit · Git & GitHub
+### 📊 [Customer Churn Prediction](https://github.com/saba-zia/customer-churn-prediction)
 
-## Contact
+**End-to-end classification project for telecom customer churn prediction.**
 
-🔗 [LinkedIn](https://www.linkedin.com/in/saba-zia-naserani/)
+- Logistic regression and model evaluation
+- ROC-AUC analysis
+- Decision-threshold tuning
+- Data preprocessing and exploratory analysis
+- Interactive Streamlit deployment
+
+---
+
+### 🎬 [CineMatch](https://github.com/saba-zia/movie-recommendation-system)
+
+**Movie recommendation system built using the MovieLens dataset.**
+
+- Item-based collaborative filtering
+- Cosine similarity
+- TMDB API integration
+- Interactive Streamlit application
+- Personalized movie recommendations
+
+---
+
+### 🎵 [LastFM Music Recommender](https://github.com/saba-zia/lastfm-music-recommender)
+
+**Modular music recommendation system for implicit-feedback data.**
+
+- Popularity, ItemKNN, Content-Based, ALS and Hybrid models
+- Unified model interface
+- Offline evaluation and performance visualization
+- 36 automated unit tests
+- Continuous Integration with GitHub Actions
+- Professional Python packaging with `pyproject.toml`
+
+---
+
+### 🤖 [Pommerman MCTS Agent](https://github.com/saba-zia/pommerman-mcts-agent)
+
+**Monte Carlo Tree Search agent for a multi-agent game environment.**
+
+- Forward-model simulation
+- Search-based decision making
+- Bomb-safety heuristics
+- Multi-agent environment
+- University team project at JKU
+
+---
+
+## Technical Skills
+
+**Languages and Data**
+
+`Python` · `Pandas` · `NumPy` · `SciPy`
+
+**Machine Learning**
+
+`Scikit-learn` · `Classification` · `Recommender Systems` · `Collaborative Filtering` · `Content-Based Filtering`
+
+**AI and Algorithms**
+
+`Monte Carlo Tree Search` · `Search Algorithms` · `Multi-Agent AI`
+
+**Engineering**
+
+`Git` · `GitHub` · `GitHub Actions` · `Pytest` · `Streamlit` · `Python Packaging`
