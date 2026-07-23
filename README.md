@@ -153,7 +153,8 @@ https://github.com/saba-zia/pommerman-mcts-agent
 
 ---
 
-# 📫 Contact
+# 📫 Connect with Me
 
-- LinkedIn: https://linkedin.com/in/YOUR-LINKEDIN
-- GitHub: https://github.com/saba-zia
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Saba_Zia-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saba-zia-naserani/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-saba--zia-181717?style=for-the-badge&logo=github)](https://github.com/saba-zia)
