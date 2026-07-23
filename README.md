@@ -1,95 +1,159 @@
-## My Project Roadmap
+# Hi, I'm Saba 👋
+
+🎓 BSc Artificial Intelligence Student at Johannes Kepler University Linz (JKU), Austria
+
+I'm passionate about building practical machine learning systems that solve real-world problems. My interests include recommender systems, machine learning, data mining, search algorithms and intelligent decision making.
+
+Currently looking for an **AI / Machine Learning Internship**.
+
+---
+
+# 🚀 AI Project Journey
 
 ```mermaid
-flowchart LR
+flowchart TD
 
-    A[Customer Churn Prediction<br/>Classification]
-    B[CineMatch<br/>Movie Recommendation]
-    C[LastFM Music Recommender<br/>Implicit Feedback]
-    D[Pommerman MCTS Agent<br/>Search and Multi-Agent AI]
+A[Customer Churn Prediction<br/>Classification • Tabular ML]
 
-    A --> B
-    B --> C
-    C --> D
+B[CineMatch<br/>Movie Recommendation System]
 
-    classDef classification fill:#e8f5e9,stroke:#2e7d32,color:#1b5e20;
-    classDef recommender fill:#ede7f6,stroke:#6a1b9a,color:#4a148c;
-    classDef search fill:#e3f2fd,stroke:#1565c0,color:#0d47a1;
+C[LastFM Music Recommender<br/>Implicit-Feedback Recommendation]
 
-    class A classification;
-    class B,C recommender;
-    class D search;
+D[Pommerman MCTS Agent<br/>Search & Multi-Agent AI]
+
+E[Future Projects<br/>LLMs • Graph ML • Reinforcement Learning]
+
+A --> B
+B --> C
+C --> D
+D --> E
 ```
 
-The roadmap represents my progression from supervised machine learning to recommender systems and search-based artificial intelligence.
+---
+
+# ⭐ Featured Projects
+
+## 🎵 LastFM Music Recommender
+
+My largest recommendation-system project built with a modular architecture for implicit-feedback music recommendation.
+
+**Highlights**
+
+- Popularity Recommender
+- ItemKNN Collaborative Filtering
+- Content-Based Filtering
+- Alternating Least Squares (ALS)
+- Hybrid Recommendation
+- Offline Evaluation Pipeline
+- Performance Visualization
+- GitHub Actions CI
+- 36 Unit Tests
+- Modular Python Package
+
+**Tech Stack**
+
+Python • Pandas • NumPy • Scikit-learn • Pytest • GitHub Actions
+
+➡️ Repository:
+https://github.com/saba-zia/lastfm-music-recommender
 
 ---
 
-## Featured Projects
+## 🎬 CineMatch
 
-### 📊 [Customer Churn Prediction](https://github.com/saba-zia/customer-churn-prediction)
+Movie recommendation system built on the MovieLens dataset using collaborative filtering and cosine similarity with TMDB API integration.
 
-**End-to-end classification project for telecom customer churn prediction.**
+**Highlights**
 
-- Logistic regression and model evaluation
-- ROC-AUC analysis
-- Decision-threshold tuning
-- Data preprocessing and exploratory analysis
-- Interactive Streamlit deployment
+- Item-based Collaborative Filtering
+- Cosine Similarity
+- Movie Metadata
+- Streamlit Deployment
+- Recommendation Interface
 
----
-
-### 🎬 [CineMatch](https://github.com/saba-zia/movie-recommendation-system)
-
-**Movie recommendation system built using the MovieLens dataset.**
-
-- Item-based collaborative filtering
-- Cosine similarity
-- TMDB API integration
-- Interactive Streamlit application
-- Personalized movie recommendations
+➡️ Repository:
+https://github.com/saba-zia/movie-recommendation-system
 
 ---
 
-### 🎵 [LastFM Music Recommender](https://github.com/saba-zia/lastfm-music-recommender)
+## 📊 Customer Churn Prediction
 
-**Modular music recommendation system for implicit-feedback data.**
+End-to-end machine learning project predicting customer churn using classification models and model evaluation techniques.
 
-- Popularity, ItemKNN, Content-Based, ALS and Hybrid models
-- Unified model interface
-- Offline evaluation and performance visualization
-- 36 automated unit tests
-- Continuous Integration with GitHub Actions
-- Professional Python packaging with `pyproject.toml`
+**Highlights**
 
----
+- Data Cleaning
+- Feature Engineering
+- Logistic Regression
+- ROC/AUC Analysis
+- Threshold Optimization
+- Streamlit Deployment
 
-### 🤖 [Pommerman MCTS Agent](https://github.com/saba-zia/pommerman-mcts-agent)
-
-**Monte Carlo Tree Search agent for a multi-agent game environment.**
-
-- Forward-model simulation
-- Search-based decision making
-- Bomb-safety heuristics
-- Multi-agent environment
-- University team project at JKU
+➡️ Repository:
+https://github.com/saba-zia/customer-churn-prediction
 
 ---
 
-## Technical Skills
+## 🤖 Pommerman MCTS Agent
 
-**Languages and Data**
+University AI project implementing a Monte Carlo Tree Search agent for the Pommerman multi-agent environment.
 
-`Python` · `Pandas` · `NumPy` · `SciPy`
+**Highlights**
 
-**Machine Learning**
+- Monte Carlo Tree Search
+- Forward Model Simulation
+- Heuristic Evaluation
+- Multi-Agent Search
 
-`Scikit-learn` · `Classification` · `Recommender Systems` · `Collaborative Filtering` · `Content-Based Filtering`
+➡️ Repository:
+https://github.com/saba-zia/pommerman-mcts-agent
 
-**AI and Algorithms**
+---
 
-`Monte Carlo Tree Search` · `Search Algorithms` · `Multi-Agent AI`
+# 🛠 Technical Skills
 
-**Engineering**
+### Languages
 
-`Git` · `GitHub` · `GitHub Actions` · `Pytest` · `Streamlit` · `Python Packaging`
+- Python
+- SQL
+- C++
+
+### Machine Learning
+
+- Scikit-learn
+- Recommendation Systems
+- Classification
+- Feature Engineering
+- Model Evaluation
+
+### Data
+
+- Pandas
+- NumPy
+- Data Visualization
+
+### Tools
+
+- Git
+- GitHub
+- GitHub Actions
+- Pytest
+- Streamlit
+- Jupyter Notebook
+
+---
+
+# 📚 Currently Learning
+
+- Advanced Recommender Systems
+- Large Language Models (LLMs)
+- Graph Machine Learning
+- Reinforcement Learning
+- MLOps
+
+---
+
+# 📫 Contact
+
+- LinkedIn: https://linkedin.com/in/YOUR-LINKEDIN
+- GitHub: https://github.com/saba-zia
