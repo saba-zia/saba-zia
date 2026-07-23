@@ -6,12 +6,18 @@ I build and publish self-driven machine learning projects, working across classi
 
 ## My Project Roadmap
 
-![Roadmap](./roadmap.svg)
+```mermaid
+flowchart TD
 
-## Projects
+    A[Customer Churn Prediction<br/>Classification and Tabular Data]
+    B[CineMatch<br/>Movie Recommender System]
+    C[LastFM Music Recommender<br/>Implicit-Feedback Recommendation]
+    D[Pommerman MCTS Agent<br/>Search and Multi-Agent AI]
 
-**[Customer Churn Prediction](https://github.com/saba-zia/customer-churn-prediction)** — *Self-driven project*
-End-to-end classification project on the Telco Customer Churn dataset — logistic regression, ROC/AUC analysis, threshold tuning, deployed with Streamlit.
+    A --> B
+    B --> C
+    C --> D
+```
 
 **[CineMatch](https://github.com/saba-zia/movie-recommendation-system)** — *Self-driven project*
 Movie recommender system built on the MovieLens dataset using item-based collaborative filtering and cosine similarity, with TMDB API integration, deployed with Streamlit.
