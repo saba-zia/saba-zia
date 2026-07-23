@@ -1,22 +1,142 @@
-<svg width="680" height="328" viewBox="0 0 680 328" xmlns="http://www.w3.org/2000/svg" role="img">
-<title>Project roadmap</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520">
+
 <defs>
-<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-<path d="M2 1L8 5L2 9" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#EEF8FF"></stop>
+<stop offset="100%" stop-color="#F8FFF5"></stop>
+</linearGradient>
+
+<linearGradient id="box" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#D8F6F0"></stop>
+<stop offset="100%" stop-color="#F5FBFF"></stop>
+</linearGradient>
+
+<filter id="shadow">
+<feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity=".18"></feDropShadow>
+</filter>
+
+<style>
+
+.title{
+font-family:Segoe UI;
+font-size:34px;
+font-weight:bold;
+fill:#16324F;
+}
+
+.subtitle{
+font-family:Segoe UI;
+font-size:18px;
+fill:#557085;
+}
+
+.head{
+font-family:Segoe UI;
+font-size:22px;
+font-weight:bold;
+fill:#16324F;
+}
+
+.small{
+font-family:Segoe UI;
+font-size:15px;
+fill:#557085;
+}
+
+.arrow{
+stroke:#28A37A;
+stroke-width:5;
+fill:none;
+marker-end:url(#m);
+}
+
+</style>
+
+<marker id="m" markerWidth="12" markerHeight="12" refX="8" refY="4" orient="auto">
+<path d="M0,0 L0,8 L8,4 z" fill="#28A37A"></path>
 </marker>
+
 </defs>
 
-<rect x="180" y="40" width="320" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
-<text x="340" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#085041">Churn prediction</text>
-<text x="340" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0F6E56">Classification, tabular data</text>
-<line x1="340" y1="96" x2="340" y2="134" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect width="1400" height="520" rx="30" fill="url(#bg)"></rect>
 
-<rect x="180" y="136" width="320" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
-<text x="340" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#085041">CineMatch</text>
-<text x="340" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0F6E56">Recommender systems</text>
-<line x1="340" y1="192" x2="340" y2="230" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="700" y="65" text-anchor="middle" class="title">
+AI Project Journey
+</text>
 
-<rect x="180" y="232" width="320" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
-<text x="340" y="254" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#085041">Pommerman MCTS Agent</text>
-<text x="340" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0F6E56">Search &amp; multi-agent AI</text>
+<text x="700" y="100" text-anchor="middle" class="subtitle">
+Learning • Recommender Systems • Machine Learning • Search Algorithms
+</text>
+
+<!-- Box 1 -->
+
+<rect x="90" y="180" width="240" height="120" rx="22" fill="url(#box)" filter="url(#shadow)"></rect>
+
+<text x="210" y="225" text-anchor="middle" class="head">
+Customer Churn
+</text>
+
+<text x="210" y="255" text-anchor="middle" class="small">
+Classification
+</text>
+
+<text x="210" y="278" text-anchor="middle" class="small">
+Logistic Regression
+</text>
+
+<!-- Box 2 -->
+
+<rect x="420" y="180" width="240" height="120" rx="22" fill="url(#box)" filter="url(#shadow)"></rect>
+
+<text x="540" y="225" text-anchor="middle" class="head">
+CineMatch
+</text>
+
+<text x="540" y="255" text-anchor="middle" class="small">
+Movie Recommendation
+</text>
+
+<text x="540" y="278" text-anchor="middle" class="small">
+Collaborative Filtering
+</text>
+
+<!-- Box 3 -->
+
+<rect x="750" y="180" width="260" height="120" rx="22" fill="url(#box)" filter="url(#shadow)"></rect>
+
+<text x="880" y="220" text-anchor="middle" class="head">
+LastFM
+</text>
+
+<text x="880" y="250" text-anchor="middle" class="small">
+Implicit Feedback
+</text>
+
+<text x="880" y="275" text-anchor="middle" class="small">
+ALS • ItemKNN • Hybrid
+</text>
+
+<!-- Box 4 -->
+
+<rect x="1090" y="180" width="230" height="120" rx="22" fill="url(#box)" filter="url(#shadow)"></rect>
+
+<text x="1205" y="220" text-anchor="middle" class="head">
+Pommerman
+</text>
+
+<text x="1205" y="250" text-anchor="middle" class="small">
+Monte Carlo Tree Search
+</text>
+
+<text x="1205" y="275" text-anchor="middle" class="small">
+Multi-Agent AI
+</text>
+
+<!-- Arrows -->
+
+<line x1="330" y1="240" x2="420" y2="240" class="arrow"></line>
+<line x1="660" y1="240" x2="750" y2="240" class="arrow"></line>
+<line x1="1010" y1="240" x2="1090" y2="240" class="arrow"></line>
+
 </svg>
